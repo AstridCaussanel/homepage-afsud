@@ -1,0 +1,60 @@
+body {background-color: black;
+	 color: rgb(207, 174, 10);
+	 text-align: center}
+
+h1 {margin-bottom: 30px;
+	margin-top: 30px;
+	font-family: Adequate}
+#rub {display: flex;
+		  flex-wrap: wrap;
+			flex-direction: row-reverse;
+			padding-top: 0px
+			}
+
+#ligne {margin-top: 30px;}
+
+#aprop {margin-right: 35px}
+
+a:hover {
+	color:grey; }
+
+a {text-decoration: none;
+	color: rgb(255,255,255, 0.6)}
+
+.rubriques { padding: 10px ;
+			 padding-right: 20px;
+			 padding-left: 20px;
+			 margin: 2px;
+			 height: 12px;
+			 font-family: Medio;
+			 font-size: 10px}
+
+h3 {font-family: Adequate}
+
+.texte p {color:rgb(255,255,255,0.7);
+			font-family: Medio;
+			margin-bottom: 50px}
+
+.texte {width:400px;}
+
+img{width:500px;
+	height:360px;
+	padding-top: 50px}
+
+
+.barmilieu {display: flex;
+			justify-content:space-around;
+			flex-wrap: wrap;
+			margin-top: 60px;
+			margin-bottom: 100px}
+
+ul {list-style-type: none;
+	margin-left: -40px}
+
+#contact {font-family: Medio;
+		 text-align: center;
+		 margin-top: 30px;
+		 margin-bottom: 30px;
+		color:rgb(255,255,255,0.7);}
+
+

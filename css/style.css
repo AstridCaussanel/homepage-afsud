@@ -1,0 +1,121 @@
+
+body { color: white; 
+		  background-color: black;}
+
+hr {color: white;}
+
+
+h1 {font-family: Medio;
+	color: white;
+	font-size: 20px}
+
+#titre { margin:10px; 
+		 padding: 40px;
+		  }
+
+#titre img {width: 150px;
+			margin-bottom: -30px}
+
+a {text-decoration: none;
+	color: rgb(250,250,250, 0.8);
+	font-size: 8px;
+	font-family: Chantelli Antiqua;}
+
+a:hover {
+	color:grey; }
+
+
+#rub {display: flex;
+		  flex-wrap: wrap;
+			 align-items: right;
+			flex-direction: row-reverse;}
+
+
+#barhaut {	  margin: -8px;
+			  padding-bottom: 20px;
+			background-image:
+				linear-gradient(180deg, rgba(0,0,0,0.4) 20%, rgba(0,0,0,0.1) 50%) ,
+				linear-gradient(120deg, rgba(0,0,0,0.7) 20%, rgba(0,0,0,0.1) 80%) ,
+				linear-gradient(360deg, rgba(0,0,0,0.9) 10%, rgba(0,0,0,0.1) 15%) ,
+				url(CT.jpg);
+				background-size: cover;}
+
+#aprop {margin-right: 35px}
+
+
+
+.rubriques { padding: 10px ;
+			 padding-right: 20px;
+			 padding-left: 20px;
+			 margin: 2px;
+			 }
+
+
+#barbas { height: 750px;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		padding-bottom: 60px ;
+		}
+
+#texte {width: 400px;
+			 font-family: Medio;
+	color: rgb(250,250,250, 0.6);
+	margin-left: 60px ;
+	padding-bottom: 50px;
+	padding-top: 80px;
+	font-size: 15px}
+
+ul {list-style-type: none}
+
+
+
+
+#barnoire {
+			background-color: black;
+			height: 500px;
+			text-align: center;
+			font-family: Medio;
+			color:rgb(255,255,255, 0.7);
+			font-size: 13px ;
+			padding-bottom: 50px}
+
+#barnoire p { padding-left: 40px ;
+				}
+
+#barnoire ul {
+			padding-bottom: 60px}
+
+#barnoire img {height: 140px;
+			   width: 220px;}
+
+#barphotos {display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: space-between;
+			padding: 15px; ;
+			margin: 10px;
+			}
+
+.destination {text-align: center;}
+.destination p {margin-left: -35px;
+				}
+
+.destination img {border: solid white 1px}
+
+
+@media (max-width: 960px) {
+  . ...{
+    width: 960px;
+  }
+}
+@media (max-width: 720px) {
+  . ...{
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  ... {
+    width: 300px;
+  }
+}

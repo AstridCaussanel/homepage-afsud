@@ -1,0 +1,183 @@
+#contact {display: flex;
+		  flex-wrap: wrap;
+			flex-direction: row-reverse;
+			margin-right: 20px}
+
+
+
+
+#texte {display:flex;
+		color:white;
+		position:relative;
+		bottom:150px;
+		background: rgba(0,0,0,0.8);
+		margin-left:-8px;
+		text-align: center;
+		align-items: center;
+		width:101.5%;
+		margin-top: 300px;
+		margin-bottom: 120px;
+		padding-bottom:3px}
+		
+
+#h1 {color:rgb(250,250,250);
+	 font-size: 50px;
+	 margin-top: 25px;
+	 margin-bottom: 0px}
+
+#h2 {color:rgba(250,250,250,0.7);
+	font-size: 28px;}
+
+#texte hr{
+    overflow: visible; /* For IE */
+    height: 2px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+
+}
+
+
+
+a:hover {
+	color:grey; }
+
+a {text-decoration: none;
+	color: rgb(99, 214, 178)}
+
+
+#offres {display:flex;
+		 flex-wrap: wrap;
+		font-size: 16px;
+		position: absolute;
+		margin-top: 40px;
+		margin-left: 50px;
+		font-family: Medio;
+		margin-bottom: 100px}
+
+
+#titre {font-size: 19px;
+		opacity: 1;}
+
+#texte2 {opacity:80%;
+		 width: 500px;
+		 margin-bottom: 70px}
+
+
+
+#rub {display: flex;
+		  flex-wrap: wrap;
+			flex-direction: row-reverse;
+			margin-top: -25px;
+			margin-bottom: 30px
+			         }
+
+.rubriques { padding: 10px ;
+			 padding-right: 20px;
+			 padding-left: 20px;
+			 margin: 2px;
+			 height: 20px;
+			 }
+
+#rub a {font-size: 10px; 
+		font-family: Medio;
+		color: white;}
+
+
+.mySlides {display:none;}
+.mySlides {width:480px;
+			height: 330px;}
+
+
+#diapo {margin-left: 80px;
+		margin-top: 50px;
+		margin-bottom: 80px}
+
+
+
+
+
+
+
+
+
+
+
+// diapo automatique
+
+* {
+  padding: 0;
+  margin: 0
+}
+
+figure {margin-inline-start: 0px;
+		margin-inline-end:-40px;
+		margin-top: 0px}
+
+body {
+  background-color: #000000;
+  font-family: Baskerville;
+  color: white;
+}
+
+#crossfade > figure {
+  animation: imageAnimation 30s linear infinite 0s;
+  backface-visibility: hidden;
+  background-size: cover;
+  background-position: center center;
+  color: transparent;
+  width:100%;
+  height: 550px;
+  left: 0px;
+  opacity: 0;
+  top: 0px;
+  position: absolute; 
+}
+
+#crossfade > figure:nth-child(1) {
+  background-image: url('img/1.jpg');
+}
+#crossfade > figure:nth-child(2) {
+  animation-delay: 6s;
+  background-image: url('img/2.jpg');
+}
+#crossfade > figure:nth-child(3) {
+  animation-delay: 12s;
+  background-image: url('img/3.jpg');
+}
+#crossfade > figure:nth-child(4) {
+  animation-delay: 18s;
+  background-image: url('img/4.jpg');
+}
+#crossfade > figure:nth-child(5) {
+  animation-delay: 24s;
+  background-image: url('img/5.jpg');
+}
+
+@keyframes imageAnimation {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  8% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  17% {
+    opacity: 1
+  }
+  25% {
+    opacity: 0
+  }
+  100% {
+    opacity: 0
+  }
+}
+
+
+// 
+
+
+
+
