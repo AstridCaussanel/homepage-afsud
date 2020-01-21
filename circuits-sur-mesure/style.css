@@ -62,7 +62,7 @@ a {text-decoration: none;
 	text-align:left}
 
 #texte2 {opacity:80%;
-		 width: 330px;
+		 width: 420px;
 		 margin-bottom: 70px;
 	text-align:justify}
 	
@@ -102,7 +102,10 @@ a {text-decoration: none;
 
 
 
-
+@media (max-width: 1015px) {
+  #texte2{
+    width: 80%;
+  }
 
 
 
