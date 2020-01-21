@@ -58,6 +58,7 @@ a {text-decoration: none;
 
 
 #titre {font-size: 19px;
+	font-family:Avenir Next;
 		opacity: 1;}
 
 #texte2 {opacity:80%;
@@ -80,8 +81,8 @@ a {text-decoration: none;
 			 height: 20px;
 			 }
 
-#rub a {font-size: 10px; 
-		font-family: Medio;
+#rub a {font-size: 15px; 
+		font-family: Avenir;
 		color: white;}
 
 
@@ -117,7 +118,7 @@ figure {margin-inline-start: 0px;
 
 body {
   background-color: #000000;
-  font-family: Baskerville;
+  font-family: Avenir;
   color: white;
 }
 
