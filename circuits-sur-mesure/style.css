@@ -57,13 +57,12 @@ a {text-decoration: none;
 		margin-bottom: 100px}
 
 
-#titre {font-size: 22px;
+#titre {font-size: 26px;
 	font-family:Avenir Next;
-		opacity: 1;
 	text-align:left}
 
 #texte2 {opacity:80%;
-		 width: 500px;
+		 width: 330px;
 		 margin-bottom: 70px;
 	text-align:justify}
 	
