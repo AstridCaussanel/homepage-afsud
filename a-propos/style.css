@@ -26,13 +26,13 @@ a {text-decoration: none;
 			 padding-left: 20px;
 			 margin: 2px;
 			 height: 12px;
-			 font-family: Medio;
-			 font-size: 10px}
+			 font-family: Avenir;
+			 font-size: 13px}
 
 h3 {font-family: Adequate}
 
 .texte p {color:rgb(255,255,255,0.7);
-			font-family: Medio;
+			font-family: Avenir;
 			margin-bottom: 50px}
 
 .texte {width:400px;}
@@ -51,7 +51,7 @@ img{width:500px;
 ul {list-style-type: none;
 	margin-left: -40px}
 
-#contact {font-family: Medio;
+#contact {font-family: Avenir;
 		 text-align: center;
 		 margin-top: 30px;
 		 margin-bottom: 30px;
